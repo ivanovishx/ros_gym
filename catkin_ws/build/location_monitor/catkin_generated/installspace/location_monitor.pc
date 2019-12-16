@@ -1,0 +1,8 @@
+prefix=/home/ix1/catkin_ws/install
+
+Name: location_monitor
+Description: Description of location_monitor
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy std_msgs
